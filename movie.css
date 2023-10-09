@@ -1,18 +1,16 @@
 body 
 {
-    margin:0;
-    padding:0;
     background-image: url("background.png");
     font-family: Verdana, Geneva, sans-seri;
     font-size: 8pt;
 }
 
 #Banner
-{
+{    
+	text-align:center;
     background-image: url("bannerrbg.png");
-    text-align:center;
 }
-#Content
+#content
 {
     margin-left: auto;
     margin-right: auto;
@@ -22,7 +20,15 @@ body
     overflow: hidden;
 }
 
-#Movie-Despription
+
+#overview
+{
+    width:250px;
+    float:right;
+    background-color:#A2B964;
+}
+
+#Movie
 {
     font-size: 24pt;
     font-family:"Verdana", sans-serif;
@@ -30,22 +36,14 @@ body
     font-weight: bold;
 }
 
-
-#Overview
-{
-    width:250px;
-    float:right;
-    background-color:#A2B964;
-}
-
-#text-description
+#description
 {
     font-family:"Arial";
     padding:10px;
     padding-top:0px;
 
 }
-.page1
+.page
 {
 	font-size: 10pt;
 	text-align:center;
@@ -65,14 +63,14 @@ body
     float:left;
 }
 
-.StyleBold
+.list
 {
     font-weight: bold;
     padding-top:5px;
 }
 
 
-#RottenAlign
+#align
 {
     background-image:url("rottenbackground.png");
     font-size: 48pt;
@@ -83,29 +81,22 @@ body
 
 }
 
-#RottenAlign img
+#align img
 {
     float: left;
     margin-right: 5px;
 }
-.ReviewColumn
+.column
 {
     width: 47%;
     float: left;
     margin-left: 2%;
 }
 
-.ReviewsTotal
-{
-	color: white;
-	font-size: 8pt;
-	font-weight:normal;
-}
-
 .Review
 {
     font-size: 8pt;
-    background-color: #E8DC9B;
+    background-color: #E1D697;
     font-weight: bold;
     border: 2px solid grey;
     padding: 8px;
@@ -113,24 +104,20 @@ body
     position: relative;
 
 }
-.ReviewCounts
+.total
 {
-    background-color: #A2B964;
-    padding:5px;
-    position: absolute;
-    bottom:-128px;
-    width: 550px;
-    text-align: center;
-
+	color: white;
+	font-size: 8pt;
+	font-weight:normal;
 }
-.ReviewerInfo
+.info
 {
     padding-top: 5px;
     padding-bottom: 20px;
 
 }
 
-.ReviewerInfo span
+.info span
 {
     font-style: italic;
 }
@@ -143,7 +130,7 @@ p img
 
 }
 
-#Position
+#Validator
 {
     position: fixed;
     right:0;
